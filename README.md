@@ -1,6 +1,8 @@
 # Verbose Code Reading
 
-I read open source code and log everything that comes to my mind.  For each codebase, I keep
+I read open source code and log everything that comes to my mind.  It's not strictly about reading, because I might try building the code, running tests and so on.
+
+For each codebase, I keep
 * a verbose append-only log of my reading activity, and
 * a queue of leftovers.
 
