@@ -11,6 +11,7 @@ I read papers too.
 * GRIN
 * HOLZero
 * K-Framework
+* K verification of DAI
 * ocamlc
 * Z3
 * Research papers that cite mine
