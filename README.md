@@ -1,5 +1,19 @@
 # Verbose Code Reading
 
-I read open source code and log everything that comes to my mind.
+I read open source code and log everything that comes to my mind.  For each codebase, I keep
+* a verbose append-only log of my reading activity, and
+* a queue of leftovers.
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+## What to Read
+
+* GRIN
+* HOLZero
+* K-Framework
+* ocamlc
+* Z3
+
+If you have another idea, file a PR.
+
+## Licence
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.  Yoichi Hirai <i@yoichihirai.com>.
