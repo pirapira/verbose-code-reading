@@ -4,6 +4,8 @@ I read open source code and log everything that comes to my mind.  For each code
 * a verbose append-only log of my reading activity, and
 * a queue of leftovers.
 
+I read papers too.
+
 ## What to Read
 
 * GRIN
@@ -11,6 +13,7 @@ I read open source code and log everything that comes to my mind.  For each code
 * K-Framework
 * ocamlc
 * Z3
+* Research papers that cite mine
 
 If you have another idea, file a PR.
 
