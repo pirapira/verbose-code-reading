@@ -5,8 +5,9 @@ I read open source code and log everything that comes to my mind.  It's not stri
 For each codebase, I keep
 * a verbose append-only log of my reading activity, and
 * a queue of leftovers.
+I allow myself to fix grammars and typos in the append-only log.
 
-I read papers too.
+I read papers too, but probably only those with open source implementations.
 
 ## What to Read
 
