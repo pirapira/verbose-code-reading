@@ -23,8 +23,7 @@ reading https://github.com/o1-labs/snarky
 * read http://staff.city.ac.uk/~ross/papers/Applicative.pdf
 * two monads, a--> tmb --> tmtmc but how to get tmc?
 * saw applicative.ml
-* saw https://blog.janestreet.com/let-syntax-and-why-you-should-use-it/, what Le
-t_syntax modules are
+* saw https://blog.janestreet.com/let-syntax-and-why-you-should-use-it/, what `Let_syntax` modules are
 
 [Stack of TODOs]
 * what is happening in Make_let_syntax in applicative.ml?
