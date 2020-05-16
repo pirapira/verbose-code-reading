@@ -32,3 +32,7 @@ reading https://github.com/o1-labs/snarky
 * read Core_kernel
 * read Core
 * read Election.ml
+
+## Advertisement
+
+[Technical Debt Huting](https://convenience-logician.de/tech-debt.html).

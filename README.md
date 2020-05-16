@@ -21,6 +21,10 @@ I read papers too, but probably only those with open source implementations.
 
 If you have another idea, file a PR.
 
+## Advertisement
+
+[Technical Debt Huting](https://convenience-logician.de/tech-debt.html).
+
 ## Licence
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.  Yoichi Hirai <i@yoichihirai.com>.
