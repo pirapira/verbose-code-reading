@@ -32,6 +32,7 @@ reading https://github.com/o1-labs/snarky
 
 ## Stack of TODOs
 * what is happening in Make_let_syntax in applicative.ml?
+* figure out how S2 in applicative.mli is used
 * read Base
 * check out core_kernel v0.12.3
 * read Core_kernel
