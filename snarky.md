@@ -1,7 +1,9 @@
 reading https://github.com/o1-labs/snarky
 
-[LOG]
-2020-05-16
+## Log
+
+### 2020-05-16
+
  * created this file.
  * compilation passes with Ocaml 4.07.1
  * examples/election/election.ml imports Core
@@ -25,7 +27,7 @@ reading https://github.com/o1-labs/snarky
 * saw applicative.ml
 * saw https://blog.janestreet.com/let-syntax-and-why-you-should-use-it/, what `Let_syntax` modules are
 
-[Stack of TODOs]
+## Stack of TODOs
 * what is happening in Make_let_syntax in applicative.ml?
 * read Base
 * check out core_kernel v0.12.3
