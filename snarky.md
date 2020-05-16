@@ -9,7 +9,7 @@ reading https://github.com/o1-labs/snarky
  * Why upgrading Core breaks the compilation with (<>)? There is a bigger problem.
  * understand why (<>) became not visible (after importing async). No need to. This only becomes a question with 4.08.0.
 * opam pin . shows this: [WARNING] Failed checks on sponge package definition from source at git+file:///home/privat/snarky/snarky#master:
-     filed a PR against this. #478
+     filed a PR against this. [#478](https://github.com/o1-labs/snarky/pull/478)
 * checked out core v0.12.4
 * core/src/core.ml says it is an extention of Core_kernel
 * core_kernel/README.md says it is an extention of Base
