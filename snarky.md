@@ -31,7 +31,9 @@ reading https://github.com/o1-labs/snarky
 * saw https://blog.janestreet.com/let-syntax-and-why-you-should-use-it/, what `Let_syntax` modules are
 
 ## Stack of TODOs
+* what is open! https://github.com/janestreet/base/blob/v0.12.2/src/applicative_intf.ml#L18
 * what is happening in Make_let_syntax in applicative.ml?
+* why so nested Let_syntax https://github.com/janestreet/base/blob/v0.12.2/src/applicative_intf.ml#L93
 * figure out how S2 in applicative.mli is used
 * read Base
 * check out core_kernel v0.12.3
