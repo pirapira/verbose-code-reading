@@ -45,6 +45,7 @@ reading https://github.com/o1-labs/snarky
 * what is happening in Make_let_syntax in applicative.ml? Just duplicating things because the same thing is useful for the let syntax as well as the programming around it.
 
 ## Stack of TODOs
+* read import.ml
 * is the label optional or mandatory in val map  : 'a t -> f:('a -> 'b)   -> 'b t (seen in https://github.com/janestreet/ppx_let)?
 * figure out how S2 in applicative.mli is used
 * read Base
