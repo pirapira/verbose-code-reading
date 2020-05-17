@@ -43,8 +43,26 @@ reading https://github.com/o1-labs/snarky
 * read https://github.com/janestreet/ppx_let/README
 * understand how to prepare Let_syntax module, just list those functions in a module
 * what is happening in Make_let_syntax in applicative.ml? Just duplicating things because the same thing is useful for the let syntax as well as the programming around it.
+* opened https://github.com/janestreet/base/blob/v0.12.2/src/import.ml
+* opened https://github.com/janestreet/base/blob/v0.12.2/src/import0.ml
+* why only lnot looks different? https://github.com/janestreet/base/blob/v0.12.2/src/import0.ml#L362 ah, not a binary operator.
+* run tests on base; couldn't figure out how to run tests.
+* do an experiment removing include Int_replace ... from Import0; then the compilation failed.
+* but removing the include from import.ml seems not to break anything.
 
 ## Stack of TODOs
+* why not (||) https://github.com/janestreet/base/blob/master/src/ppx_compare_lib.mli#L12
+* how does OCaml find symbols, especially, is it like lastly defined?
+* Int_replace_polymorphic_compare has already been included in Import0, so maybe this is a duplicate https://github.com/janestreet/base/blob/v0.12.2/src/import.ml#L6
+* are *_replace_polymorphic_compare included somewhere later?
+* is there a recent change on String_replace_polymorphic_compare?
+* read Poly0
+* what does external symb : type = string do?
+* what does [@ocaml.warning "-3"] do?
+* read import0.ml
+* read Hash.Builtin
+* read Ppx_compare_lib.Builtin
+* read Int_replace_polymorphic_compare
 * read import.ml
 * is the label optional or mandatory in val map  : 'a t -> f:('a -> 'b)   -> 'b t (seen in https://github.com/janestreet/ppx_let)?
 * figure out how S2 in applicative.mli is used
