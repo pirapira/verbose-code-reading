@@ -29,11 +29,23 @@ reading https://github.com/o1-labs/snarky
 * two monads, a--> tmb --> tmtmc but how to get tmc?
 * saw applicative.ml
 * saw https://blog.janestreet.com/let-syntax-and-why-you-should-use-it/, what `Let_syntax` modules are
+* open! supresses warning against shadowing: https://stackoverflow.com/questions/22607755/what-does-open-mean-in-ocaml
+
+### 2020-05-17
+
+* what happens with module type A = sig
+      ...
+      module A : sig
+         ...
+      end
+  end
+  a module of that type needs to contain a module of that signature.
+* read https://github.com/janestreet/ppx_let/README
+* understand how to prepare Let_syntax module, just list those functions in a module
+* what is happening in Make_let_syntax in applicative.ml? Just duplicating things because the same thing is useful for the let syntax as well as the programming around it.
 
 ## Stack of TODOs
-* what is open! https://github.com/janestreet/base/blob/v0.12.2/src/applicative_intf.ml#L18
-* what is happening in Make_let_syntax in applicative.ml?
-* why so nested Let_syntax https://github.com/janestreet/base/blob/v0.12.2/src/applicative_intf.ml#L93
+* is the label optional or mandatory in val map  : 'a t -> f:('a -> 'b)   -> 'b t (seen in https://github.com/janestreet/ppx_let)?
 * figure out how S2 in applicative.mli is used
 * read Base
 * check out core_kernel v0.12.3
