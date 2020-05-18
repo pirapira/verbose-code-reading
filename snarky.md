@@ -59,10 +59,11 @@ reading https://github.com/o1-labs/snarky
 * read https://caml.inria.fr/pub/docs/manual-ocaml/intfc.html 20.1.1
 * what does external symb : type = string do? done.
 * read Poly0, read
+* what does [@ocaml.warning "-3"] do? disable a warning.
+* read import0.ml
 
 ## Stack of TODOs
-* what does [@ocaml.warning "-3"] do?
-* read import0.ml
+* read hash_intf.ml
 * read Hash.Builtin
 * read Ppx_compare_lib.Builtin
 * read Int_replace_polymorphic_compare
