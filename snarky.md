@@ -50,14 +50,17 @@ reading https://github.com/o1-labs/snarky
 * do an experiment removing include Int_replace ... from Import0; then the compilation failed.
 * but removing the include from import.ml seems not to break anything.
 
+### 2020-05-18
+
+* why not (||) https://github.com/janestreet/base/blob/master/src/ppx_compare_lib.mli#L12 because "or" is not used in record comparison
+* Int_replace_polymorphic_compare has already been included in Import0, so maybe this is a duplicate https://github.com/janestreet/base/blob/v0.12.2/src/import.ml#L6 --> posted a PR
+* are *_replace_polymorphic_compare included somewhere later? yes.
+* how does OCaml find symbols, especially, is it like lastly defined? just overwritten in the symbol table? or, adhoc polymorphism allowed? no, just overwritten in the symbol table.
+* read https://caml.inria.fr/pub/docs/manual-ocaml/intfc.html 20.1.1
+* what does external symb : type = string do? done.
+* read Poly0, read
+
 ## Stack of TODOs
-* why not (||) https://github.com/janestreet/base/blob/master/src/ppx_compare_lib.mli#L12
-* how does OCaml find symbols, especially, is it like lastly defined?
-* Int_replace_polymorphic_compare has already been included in Import0, so maybe this is a duplicate https://github.com/janestreet/base/blob/v0.12.2/src/import.ml#L6
-* are *_replace_polymorphic_compare included somewhere later?
-* is there a recent change on String_replace_polymorphic_compare?
-* read Poly0
-* what does external symb : type = string do?
 * what does [@ocaml.warning "-3"] do?
 * read import0.ml
 * read Hash.Builtin
