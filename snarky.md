@@ -63,9 +63,11 @@ reading https://github.com/o1-labs/snarky
 * read import0.ml
 * hash_intf.ml the constraints look like better encoded in linear type.
 * read hash_intf.ml
+* what is [@@noalloc]? fast C call, when no bad side-effects
+* what is indurect function call in ocaml? other C calls.
+* read hash.ml
 
 ## Stack of TODOs
-* read hash.ml
 * read Hash.Builtin
 * read Ppx_compare_lib.Builtin
 * read Int_replace_polymorphic_compare
