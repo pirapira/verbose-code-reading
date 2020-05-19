@@ -66,11 +66,11 @@ reading https://github.com/o1-labs/snarky
 * what is [@@noalloc]? fast C call, when no bad side-effects
 * what is indurect function call in ocaml? other C calls.
 * read hash.ml
-
-## Stack of TODOs
 * read Hash.Builtin
 * read Ppx_compare_lib.Builtin
 * read Int_replace_polymorphic_compare
+
+## Stack of TODOs
 * read import.ml
 * is the label optional or mandatory in val map  : 'a t -> f:('a -> 'b)   -> 'b t (seen in https://github.com/janestreet/ppx_let)?
 * figure out how S2 in applicative.mli is used
