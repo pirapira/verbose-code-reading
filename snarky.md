@@ -61,9 +61,11 @@ reading https://github.com/o1-labs/snarky
 * read Poly0, read
 * what does [@ocaml.warning "-3"] do? disable a warning.
 * read import0.ml
+* hash_intf.ml the constraints look like better encoded in linear type.
+* read hash_intf.ml
 
 ## Stack of TODOs
-* read hash_intf.ml
+* read hash.ml
 * read Hash.Builtin
 * read Ppx_compare_lib.Builtin
 * read Int_replace_polymorphic_compare
