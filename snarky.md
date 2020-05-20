@@ -72,6 +72,9 @@ reading https://github.com/o1-labs/snarky
 * read Hash.Builtin
 * read Ppx_compare_lib.Builtin
 * read Int_replace_polymorphic_compare
+
+### 2020-05-20
+
 * read import.ml
 * mandatory: is the label optional or mandatory in val map  : 'a t -> f:('a -> 'b)   -> 'b t (seen in https://github.com/janestreet/ppx_let)?
 * what is t Ctypes.typ? https://github.com/ocamllabs/ocaml-ctypes/blob/master/src/ctypes/ctypes_static.mli#L29
