@@ -69,16 +69,32 @@ reading https://github.com/o1-labs/snarky
 * read Hash.Builtin
 * read Ppx_compare_lib.Builtin
 * read Int_replace_polymorphic_compare
+* read import.ml
+* mandatory: is the label optional or mandatory in val map  : 'a t -> f:('a -> 'b)   -> 'b t (seen in https://github.com/janestreet/ppx_let)?
+* what is t Ctypes.typ? https://github.com/ocamllabs/ocaml-ctypes/blob/master/src/ctypes/ctypes_static.mli#L29
+* read bindings_base.ml
+* read Ctypes.FOREIGN https://github.com/ocamllabs/ocaml-ctypes/blob/master/src/ctypes/ctypes.mli#L485 vaguely remembered what it was.
 
 ## Stack of TODOs
-* read import.ml
-* is the label optional or mandatory in val map  : 'a t -> f:('a -> 'b)   -> 'b t (seen in https://github.com/janestreet/ppx_let)?
-* figure out how S2 in applicative.mli is used
+* undestand R1CS constraint system
+* read backend_types.mli
+* why is func_name a function from string to string in backend_types.mli?
+* understand Camlsnark_c.Backend_types.Var.t
+* read ctypes.Foreign_types
+* read backend_types.mli
+* read backend_tpes.ml
+* read libsnark.ml
+* read Snarky.mli
+* read Snarky.ml
+* read Election.ml
+* figure out what from Core is used in Election.ml
 * read Base
 * check out core_kernel v0.12.3
 * read Core_kernel
 * read Core
-* read Election.ml
+* figure out how S2 in applicative.mli is used
+* something about linking... what is the module Ignored doing in libsnark.ml?
+* why the same module type is defined in bingings_base.ml and somewhere else (libsnrk.ml?)
 
 ## Advertisement
 
