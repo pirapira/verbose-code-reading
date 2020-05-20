@@ -61,6 +61,9 @@ reading https://github.com/o1-labs/snarky
 * read Poly0, read
 * what does [@ocaml.warning "-3"] do? disable a warning.
 * read import0.ml
+
+### 2020-05-19
+
 * hash_intf.ml the constraints look like better encoded in linear type.
 * read hash_intf.ml
 * what is [@@noalloc]? fast C call, when no bad side-effects
