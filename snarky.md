@@ -74,18 +74,39 @@ reading https://github.com/o1-labs/snarky
 * what is t Ctypes.typ? https://github.com/ocamllabs/ocaml-ctypes/blob/master/src/ctypes/ctypes_static.mli#L29
 * read bindings_base.ml
 * read Ctypes.FOREIGN https://github.com/ocamllabs/ocaml-ctypes/blob/master/src/ctypes/ctypes.mli#L485 vaguely remembered what it was.
-
-## Stack of TODOs
-* undestand R1CS constraint system
+* "beyond was is leaked by the output z" should be "beyond what is..." in https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-ben-sasson.pdf
+* "cross-over points?"
+* it might be interesting to formalize vnTinyRAM
+* they say subring of degree <= d. But that's not closed for multiplication. https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-ben-sasson.pdf
+* bilinear doen't look like bilinear. https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-ben-sasson.pdf
+* ceil and floor confused. must be ceiled all the way.
+* it's impossible to distinguish long string with zero's and short strings
 * read backend_types.mli
-* why is func_name a function from string to string in backend_types.mli?
-* understand Camlsnark_c.Backend_types.Var.t
-* read ctypes.Foreign_types
+* undestand R1CS constraint system; itself is not so hard.
+* why is func_name a function from string to string in backend_types.mli? (adding prefix)
+* understand Camlsnark_c.Backend_types.Var.t: just field_unconstrained. the meaning depends on usage.
 * read backend_types.mli
 * read backend_tpes.ml
-* read libsnark.ml
-* read Snarky.mli
-* read Snarky.ml
+* Binable? from Bin_prot
+* libsnark.ml: I vaguely remember calling these profiling configs
+* find group_coefficients in libsnark. could not find interesting things.
+* understand Camlsnark_c.Bindings.Group_coefficients (Fq); almost. not seeing why there are two: a and b.
+* window seems like multiexponentiation gadget
+* what are G and V in the window table?  G is perhaps the generator.  V is perhaps the window table itself?  Vector.
+* understand Camlsnark_c.Bindings.Window_table
+* libsnark.ml looks lots of boilerplate, but understandable given this is a wrapper
+* deduplicate? what to do?
+* read libsnark.ml; only scanned.
+* understand the definition of schedule_delete'ed
+* why are things schedule_delete'ed? OCaml GC cannot invoke C++ delete
+* read Snarky.mli; doesn't exist
+* read Snarky.ml; doesn't exist
+* what does [@@deriving enum] do? association with int
+
+## Stack of TODOs
+* read src/enumerable.mli
+* read src/enumerable.ml
+* what is Enumerable?
 * read Election.ml
 * figure out what from Core is used in Election.ml
 * read Base
@@ -95,6 +116,10 @@ reading https://github.com/o1-labs/snarky
 * figure out how S2 in applicative.mli is used
 * something about linking... what is the module Ignored doing in libsnark.ml?
 * why the same module type is defined in bingings_base.ml and somewhere else (libsnrk.ml?)
+* read Gannaro et al. [38]
+* read E.  Ben-Sasson,  A.  Chiesa,  E.  Tromer,  and  M.  Virza,  “Succinct  non-interactive zero knowledge for a von neumann architecture.  from 2.4.
+* read libsnark's readme
+* why are there two bounds a and b? in Camlsnark_c.Bindings.Group_coefficients? I'll see when it's used.
 
 ## Advertisement
 
