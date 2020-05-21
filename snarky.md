@@ -109,7 +109,20 @@ reading https://github.com/o1-labs/snarky
 * read Snarky.ml; doesn't exist
 * what does [@@deriving enum] do? association with int
 
+### 2020-05-21
+* what is .. in constraint.ml?  object type!!! row variable!!!
+* read about roh variable in ocaml object... found a paper
+* row variables provide parametric polymorphism for method invocation. ok.
+* read http://caml.inria.fr/pub/papers/remy_vouillon-objective_ml-tapos98.pdf half way
+* read Field_intf.ml
+* why does the `map` is covariant on constraints in constraint.ml?
+* module as a value. --> first class modules hah.
+* read https://dev.realworldocaml.org/first-class-modules.html
+* sent a PR removing Conv, which seems never used
+
 ## Stack of TODOs
+* read Constraint
+* read snrark_intf
 * read src/enumerable.mli
 * read src/enumerable.ml
 * what is Enumerable?
