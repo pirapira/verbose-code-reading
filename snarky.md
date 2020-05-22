@@ -127,6 +127,7 @@ reading https://github.com/o1-labs/snarky
 * why are there Cvar.t and Cvar.cvar?
 * to_constant_and_terms might return the same variable multiple times
 * read Comparable.S
+* Parametrised Notions of Computation looks like fun.
 
 ### 2020-05-22
 
@@ -136,8 +137,15 @@ reading https://github.com/o1-labs/snarky
 * read about Map.merge_skewed
 * read cvar.ml from L132-
 * does variable start with zero or one? must not be zero (for the json representation)
+* how are Free_monad.Functor.S2 and S3 used?  Like ('a, e') result
+* read List0
+* read Monad_intf
 
 ## Stack of TODOs
+* read Monad in Jane
+* read Monad_let
+* read Free_monad.Make2
+* read Typ_monads
 * read Types.Typ
 * read Typ
 * read snrark_intf
