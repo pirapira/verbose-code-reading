@@ -110,7 +110,7 @@ reading https://github.com/o1-labs/snarky
 * what does [@@deriving enum] do? association with int
 
 ### 2020-05-21
-* what is .. in constraint.ml?  object type!!! row variable!!!
+* what is .. in constraint.ml?  object type!!! row variable!!!  no. that was https://caml.inria.fr/pub/docs/manual-ocaml/extensiblevariants.html
 * read about roh variable in ocaml object... found a paper
 * row variables provide parametric polymorphism for method invocation. ok.
 * read http://caml.inria.fr/pub/papers/remy_vouillon-objective_ml-tapos98.pdf half way
@@ -119,9 +119,27 @@ reading https://github.com/o1-labs/snarky
 * module as a value. --> first class modules hah.
 * read https://dev.realworldocaml.org/first-class-modules.html
 * sent a PR removing Conv, which seems never used
+* read Constraint
+* read https://caml.inria.fr/pub/docs/manual-ocaml/privatetypes.html
+* what is private type?
+* read boolean.mli
+* read Boolean
+* why are there Cvar.t and Cvar.cvar?
+* to_constant_and_terms might return the same variable multiple times
+* read Comparable.S
+
+### 2020-05-22
+
+* why is can_mutate_state mutable? weird.
+* sent a PR about it
+* read about Map.singleton
+* read about Map.merge_skewed
+* read cvar.ml from L132-
+* does variable start with zero or one? must not be zero (for the json representation)
 
 ## Stack of TODOs
-* read Constraint
+* read Types.Typ
+* read Typ
 * read snrark_intf
 * read src/enumerable.mli
 * read src/enumerable.ml
