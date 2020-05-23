@@ -139,11 +139,21 @@ reading https://github.com/o1-labs/snarky
 * does variable start with zero or one? must not be zero (for the json representation)
 * how are Free_monad.Functor.S2 and S3 used?  Like ('a, e') result
 * read List0
-* read Monad_intf
+* read monad_intf.mli
+* what is type nonrec?, ah the name is not bound in the body
+* read monad.ml
+* why is the Let_syntax module type declared again in monad_let.ml?
+
+### 2020-05-23
+
+* monad_let.ml can be probably simplified (like monad.ml) -> filed a PR
+  * try to implement Make2 and Make using Make3, in monad_let.ml
+* read Monad_let
+* try functorize in constraint.ml; this is not so hard
+* modifiable field element and immutable field element needs to have different type sigs -> this grows into a very big change, and requires the previous change
 
 ## Stack of TODOs
-* read Monad in Jane
-* read Monad_let
+* Free_monad.Make1 and Make2 are special cases of Free_monad.Make3
 * read Free_monad.Make2
 * read Typ_monads
 * read Types.Typ
@@ -165,6 +175,7 @@ reading https://github.com/o1-labs/snarky
 * read E.  Ben-Sasson,  A.  Chiesa,  E.  Tromer,  and  M.  Virza,  “Succinct  non-interactive zero knowledge for a von neumann architecture.  from 2.4.
 * read libsnark's readme
 * why are there two bounds a and b? in Camlsnark_c.Bindings.Group_coefficients? I'll see when it's used.
+* Field.one should not be modifiable
 
 ## Advertisement
 
