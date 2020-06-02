@@ -156,15 +156,16 @@ reading https://github.com/o1-labs/snarky
 
 * Free_monad.Make1 and Make2 are special cases of Free_monad.Make3 --> that was false
 * read Free_monad.Make2
-* annotatte types in Store
-
-## Stack of TODOs
-* created a two-step deep example of Store.t and execute the run function on it.
+* annotatted types in Store
 * read Store
-* annotate types in Read
+* annotated types in Read
 * read Read
 * read Alloc
 * read Typ_monads
+* Had a look at Types. Some VM like thing is going on. Maybe time to read one of the SNARK papers.
+
+## Stack of TODOs
+* read Run_state
 * read Types.Typ
 * read Typ
 * read snrark_intf
