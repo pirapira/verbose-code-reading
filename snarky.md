@@ -152,9 +152,18 @@ reading https://github.com/o1-labs/snarky
 * try functorize in constraint.ml; this is not so hard
 * modifiable field element and immutable field element needs to have different type sigs -> this grows into a very big change, and requires the previous change
 
-## Stack of TODOs
-* Free_monad.Make1 and Make2 are special cases of Free_monad.Make3
+### 2020-06-02
+
+* Free_monad.Make1 and Make2 are special cases of Free_monad.Make3 --> that was false
 * read Free_monad.Make2
+* annotatte types in Store
+
+## Stack of TODOs
+* created a two-step deep example of Store.t and execute the run function on it.
+* read Store
+* annotate types in Read
+* read Read
+* read Alloc
 * read Typ_monads
 * read Types.Typ
 * read Typ
