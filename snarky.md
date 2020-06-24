@@ -164,7 +164,57 @@ reading https://github.com/o1-labs/snarky
 * read Typ_monads
 * Had a look at Types. Some VM like thing is going on. Maybe time to read one of the SNARK papers.
 
+### 2020-06-03
+* k stands for continuation in Monad_typ
+* what are return and result in bindings_base.ml? Maybe a way to deal with the partial application in ML
+* Foreign_intf looks reasonable
+* read bindings_base.ml
+* vector.mli
+  * does 'emplace_back' automatically allocate?
+  * what does 'get' do in case of out of index access?
+* vector.ml
+  * "camlsnark_bool_vector" prefix, how is this used?
+    * see ./libsnark-caml/libsnark/caml/common.cpp
+* read Camlsnark_c.Vector
+* what is Bindings (Vector_ffi_bindings) (vector.ml l.3)
+  * where does this symbol "Vector_ffi_bindings" come from?
+* bin_prot is a good target for formal verification, right? Well, this involves OCaml-C interface.
+* what are "extensionally defined OCaml types" (README.md of Bin_prot)
+* skimmed through README of Bin_prot
+* what is the difference between exception Read_error Empty_type pos and exception Error_type? (perhaps the second doesn't contain a position pos)
+* what is c_layout https://caml.inria.fr/pub/docs/manual-ocaml/libref/Bigarray.html
+* what does `let ( + ) = ( + )` do in `common.ml`?
+* skimmed through Bin_prot.Common
+* skimmed through size.mli
+* skimmed through size.ml
+* read Write
+* why do reader and writer return the final positions in different ways?
+* opened Shape
+* opened Type_class
+* read Bin_prot.binable
+* had a look at binable.mli in core_kernel
+* had a look at binable.ml in core_kernel
+* why are schedule_delete functions in the binable functor arguments; ah, to sync OCaml gc and C++ delete
+* why not on 64-bit arch, max_array_length is just halved?
+* read vector.mli
+* read vector.ml
+* read type_equal.mli
+* skimmed through tppe_equal.ml
+* what does Constraint_system_intf.finalize do?
+* read Backend_intf.Constraint_system_intf
+* read Constraint_system; a dynamic module and its instance.
+* request.ml looks a bit too mumble
+* what is done in type response += T of a Response.t? Dynamically allocated new response clause?
+* but why can handler return this new clause in the inductive definition? Well, the handler is given the respond function, so it's fine...
+* read Request
+* reading Run_state, I realized that the underlying math needed
+
+### 2020-06-24
+* done reading E.  Ben-Sasson,  A.  Chiesa,  E.  Tromer,  and  M.  Virza,  “Succinct  non-interactive zero knowledge for a von neumann architecture.  from 2.4.
+* read libsnark's readme
+
 ## Stack of TODOs
+* identify how snarky calls libsnark
 * read Run_state
 * read Types.Typ
 * read Typ
@@ -182,8 +232,6 @@ reading https://github.com/o1-labs/snarky
 * something about linking... what is the module Ignored doing in libsnark.ml?
 * why the same module type is defined in bingings_base.ml and somewhere else (libsnrk.ml?)
 * read Gannaro et al. [38]
-* read E.  Ben-Sasson,  A.  Chiesa,  E.  Tromer,  and  M.  Virza,  “Succinct  non-interactive zero knowledge for a von neumann architecture.  from 2.4.
-* read libsnark's readme
 * why are there two bounds a and b? in Camlsnark_c.Bindings.Group_coefficients? I'll see when it's used.
 * Field.one should not be modifiable
 
