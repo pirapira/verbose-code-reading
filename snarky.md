@@ -212,9 +212,11 @@ reading https://github.com/o1-labs/snarky
 ### 2020-06-24
 * done reading E.  Ben-Sasson,  A.  Chiesa,  E.  Tromer,  and  M.  Virza,  “Succinct  non-interactive zero knowledge for a von neumann architecture.  from 2.4.
 * read libsnark's readme
+* identify how snarky calls libsnark
+    * Backend.make_groth16_proof
+    * looks like using R1CS directly
 
 ## Stack of TODOs
-* identify how snarky calls libsnark
 * read Run_state
 * read Types.Typ
 * read Typ
