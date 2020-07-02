@@ -216,9 +216,12 @@ reading https://github.com/o1-labs/snarky
     * Backend.make_groth16_proof
     * looks like using R1CS directly
 
-## Stack of TODOs
+### 2020-07-02
 * read Run_state
 * read Types.Typ
+
+## Stack of TODOs
+* read Types.Checked
 * read Typ
 * read snrark_intf
 * read src/enumerable.mli
