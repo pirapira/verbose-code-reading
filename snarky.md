@@ -217,12 +217,26 @@ reading https://github.com/o1-labs/snarky
     * looks like using R1CS directly
 
 ### 2020-07-02
-* read Run_state
 * read Types.Typ
 
-## Stack of TODOs
+### 2020-07-15
+* read Run_state
+    * I see only shapes.
 * read Types.Checked
+    * what is "checked computation?"
+        * That's described in README.
+    * It's a big syntax
 * read Typ
+    * "A list of {!type:Type.Typ.t} values" what is !type is it dereference?
+    * what is the type within R1CS? How is a variable represented within R1CS?
+    * what is a variable in R1CS?
+    * k_var and k_value becomes functions, so this thing is actually a list of arguments.
+* read As_prover_intf
+    * Is Basic.Provider.with_lens a copy of Basic.with_lens?
+    * Again seeing operations create/get/set/store/read/alloc
+
+## Stack of TODOs
+* read As_prover
 * read snrark_intf
 * read src/enumerable.mli
 * read src/enumerable.ml
@@ -235,7 +249,7 @@ reading https://github.com/o1-labs/snarky
 * read Core
 * figure out how S2 in applicative.mli is used
 * something about linking... what is the module Ignored doing in libsnark.ml?
-* why the same module type is defined in bingings_base.ml and somewhere else (libsnrk.ml?)
+* why the same module type is defined in bingings_base.ml and somewhere else (libsnark.ml?)
 * read Gannaro et al. [38]
 * why are there two bounds a and b? in Camlsnark_c.Bindings.Group_coefficients? I'll see when it's used.
 * Field.one should not be modifiable
