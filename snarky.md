@@ -234,9 +234,16 @@ reading https://github.com/o1-labs/snarky
 * read As_prover_intf
     * Is Basic.Provider.with_lens a copy of Basic.with_lens?
     * Again seeing operations create/get/set/store/read/alloc
+* read checked_intf
+* read As_prover
+
+### 2020-07-29
+
+* the definition of 'a json type involves row variable
+* type .... = .... as ....?
+  http://caml.inria.fr/pub/docs/manual-ocaml/types.html
 
 ## Stack of TODOs
-* read As_prover
 * read snrark_intf
 * read src/enumerable.mli
 * read src/enumerable.ml
