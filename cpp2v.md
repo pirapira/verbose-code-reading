@@ -29,13 +29,21 @@
 * saw proof_irrel
     * what is this saying `x = `y
 
+### 2020-08-13
+
+* tried 'make test'
+    * what is demo.cpp?
+* read demo.cpp
+* read demo_cpp.v
+
 ## TODO
 
-* read decidable
-* read option
-* read numbers
-* read list
-* read countable
+* what is Little in the syntax tree? in demo_cpp.v?
+* read decidable in iris
+* read option in iris
+* read numbers in iris
+* read list in iris
+* read countable in iris
 * read stdpp.gmap.
 * read avl.v
 * find somewhere to start
